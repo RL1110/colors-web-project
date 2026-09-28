@@ -85,7 +85,7 @@ Log into the MySQL CLI:
 mysql -u root -p
 ```
 
-Create the application database and define the schema:
+Create the application database and make sure to define user set as registration is not possible:
 ```sql
 CREATE DATABASE COP4331;
 USE COP4331;
