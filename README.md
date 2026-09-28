@@ -135,3 +135,5 @@ Navigate to `http://YOUR_SERVER_IP/` in your browser to verify the login portal 
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+## AI generated content in README file
