@@ -1,0 +1,20 @@
+{
+  "name": "colors-web-project",
+  "version": "1.0.0",
+  "description": "COP 4331 LAMP Stack Colors Web Application",
+  "private": true,
+  "scripts": {
+    "lint:html": "htmlhint \"LAMP Stack/**/*.html\"",
+    "lint:css": "stylelint \"LAMP Stack/**/*.css\"",
+    "lint:js": "eslint \"LAMP Stack/**/*.js\"",
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "htmlhint": "^1.1.4",
+    "stylelint": "^16.0.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
