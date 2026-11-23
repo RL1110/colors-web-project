@@ -1,0 +1,21 @@
+{
+  "name": "colors-web-project",
+  "version": "1.0.0",
+  "description": "COP 4331 LAMP Stack Colors Web Application",
+  "private": true,
+  "scripts": {
+    "test:frontend": "jest tests/frontend.unit.test.js",
+    "test:integration": "node --test --test-reporter=./tests/api.integration.test.js tests/api.integration.test.js",
+    "test": "npm --silent run test:frontend && npm --silent run test:integration"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "reporters": [
+      "<rootDir>/tests/frontend.unit.test.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
